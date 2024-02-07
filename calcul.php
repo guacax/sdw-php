@@ -31,7 +31,16 @@
         return $result;
     }
 
-   
+    // Puissance par multiplications successives:
+
+    function puissance($a, $b) {
+        $result = 1;
+        for ($i= 0; $i < $b; $i++) {
+            $result *= $a;
+        }
+        return $result;
+    }
+
     
   
 ?>
