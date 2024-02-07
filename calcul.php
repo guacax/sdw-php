@@ -21,7 +21,17 @@
     }
 
     
-    
+    // Multiplication par additions successives d'un des termes:
+
+    function multiplication($a, $b) {
+        $result = $a;
+        for ($i= 0; $i < $b; $i++) {
+            $result += $a;
+        }
+        return $result;
+    }
+
+   
     
   
 ?>
