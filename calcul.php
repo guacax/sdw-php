@@ -40,7 +40,14 @@
         }
         return $result;
     }
-
     
+
+    // Prendre 2 nombres et dire si il est multiple de l'autre ou non
+
+    function mutilple($a, $b)  {
+        if ($a % $b == 0) {
+            echo $a . " est un multiple de " . $b;
+        }
+    }
   
 ?>
